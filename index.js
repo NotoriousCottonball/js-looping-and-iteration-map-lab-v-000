@@ -21,8 +21,8 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  const driverInfoStrings = drivers.map(function(infoString) {
+  const infoStringDrivers = drivers.map(function(infoString) {
     return `${infoString.name} is from ${infoString.hometown}`;
   });
-  return driverInfoStrings;
+  return infoStringDrivers;
 }
